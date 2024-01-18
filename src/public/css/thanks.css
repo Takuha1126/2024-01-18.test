@@ -1,0 +1,33 @@
+.thank {
+    text-align: center;
+    background-color: #fff;
+    margin-top: 20%;
+}
+.thank__title {
+    position: relative;
+}
+.thank__title .thank__title--item {
+    position: absolute;
+    left: 35%;
+    font-size: 30px;
+    color: #996633;
+}
+.thank__title .thank__img {
+    position: absolute;
+    font-size: 200pt;
+    left: 10%;
+    top: -50px;
+    white-space: nowrap;
+    color: rgba(192, 192 ,192 ,0.2);
+}
+.thank__button {
+    text-align: center;
+    padding-top: 300px;
+}
+.thank__button-submit {
+
+    padding: 10px 40px 10px 40px;
+    color: #fff;
+    background-color: #996633;
+    font-size: 20px;
+}

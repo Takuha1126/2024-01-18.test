@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+}
+.header {
+    max-width: 1500px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #c0c0c0 ;
+    padding: 0 0 10px 0;
+
+}
+.header__inner {
+    margin: 0 auto;
+}
+.header__logo {
+    text-decoration: none;
+    font-size: 40px;
+    color: #996633;
+}
+.header-form {
+    margin:10px 0 0 0;
+}
+.nav_button {
+    padding: 5px 10px 5px 10px;
+    background-color: #d2b48c;
+    color: rgba(128, 128, 0, 0.7);
+}
+
+.main__title {
+    text-align: center;
+    margin: 40px 0 50px 0;
+}
+.main__title-admin {
+    font-size: 30px;
+    color: #996633;
+}
+
+.main__flex-form {
+    display: flex;
+    justify-content: center;
+}
+.flex__input {
+    margin: 0 50px 0 0;
+}
+.flex__input input {
+    padding: 8px 70px 8px 10px;
+    background-color: #eeeeee;
+}
+
+.flex__gender {
+    width: 100%;
+    max-width: 90px;
+    margin: 0 50px 0 0;
+    position: relative;
+}
+.flex__gender::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 5px 0 5px;
+    border-color: #bbbbbb transparent transparent transparent;
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+.main__flex-form--gender {
+    width: 100%;
+    padding: 10px;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #eeeeee;
+    font-size: 10px;
+    border: none;
+    color: #bbbbbb;
+}
+.select-box {
+    width: 100%;
+    max-width: 150px;
+    position: relative;
+}
+
+.select-box::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 5px 0 5px;
+    border-color: #bbbbbb transparent transparent transparent;
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.select-box__item {
+    width: 100%;
+    padding: 10px;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    background-color: #eeeeee;
+    color: #bbbbbb;
+}
+.flex__date input{
+    margin-left: 30px;
+    padding: 5px 30px 5px 10px;
+    background-color: #eeeeee;
+}
+.main__export-form {
+    margin: 10px 600px 10px 0;
+    display: flex;
+    justify-content: center;
+}
+.button__export {
+    color: #996633;
+    background-color: #d2b48c;
+}
+.todo-table__inner {
+    margin: 10px auto;
+}
+.todo-table__th {
+    padding: 10px 0 20px 0;
+    background-color: #996633;
+    color: #fff;
+}
+.todo-table__name {
+    padding: 0 50px 0 10px;
+}
+.todo-table__gender {
+    padding: 0 50px 0 0;
+}
+.todo-table__email {
+    padding: 0 45px 0 0;
+}
+.todo-table__content {
+    padding: 0 250px 0 0;
+}
+.update-form__item-name {
+    margin: 10px 10px 0 0;
+    width: 100px;
+    border: none;
+}
+.update-form__item-gender {
+    margin: 0 10px 0 0;
+    width: 40px;
+    border: none;
+}
+.update-form__item-email {
+    margin: 0 20px 0 0;
+    width: 130px;
+    border: none;
+}
+.update-form__item-content {
+    margin: 0 20px 0 0;
+    width: 300px;
+    border: none;
+
+}
+.update-form__button-submit {
+    padding: 5px 20px 5px 20px;
+    background-color: #d2b48c;
+    color: #996633;
+}
+.delete-form__button {
+    text-align: center;
+}
+.delete-form__button-submit {
+    padding: 10px 30px 10px 30px;
+    background-color: #d2b48c;
+    color: #996633;
+}

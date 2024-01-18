@@ -1,0 +1,93 @@
+html,body {
+    overflow: hidden;
+}
+
+body {
+    background-color: #d2b48c;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 10px 0 10px 0;
+}
+
+.header__inner a {
+    font-size: 40px;
+    color: #996633;
+    padding-left: 50px;
+}
+
+.nav {
+    margin-top: 15px;
+    margin-right: 20px;
+
+}
+
+.nav_button {
+    background-color: #d2b48c;
+    color: rgba(128, 128, 0, 0.7);
+    padding: 10px 15px 10px 15px;
+}
+
+.container {
+    width: 100%;
+    height: 90vh;
+    text-align: center;
+}
+
+.container__title {
+    color: rgba(128, 128, 0, 0.6);
+
+}
+
+.container__title-ttl {
+    font-size: 30px;
+}
+
+.form {
+    margin: 0 auto;
+    width: 600px;
+    height: 400px;
+    background-color: #fff;
+}
+.form__item-name  {
+    padding-top: 10px;
+    margin-right: 120px;
+    color: #d2b48c;
+}
+
+.form__item-ttl {
+    padding: 10px 0 0 0;
+    margin-right: 70px;
+    color: #d2b48c;
+}
+
+.form__item-ttl--input input {
+    font-size: 10px;
+    padding: 10px 40px 10px 10px;
+}
+input::placeholder {
+    color: #d2b48c;
+}
+
+.form__item-pass {
+    margin-right: 90px;
+    color: #d2b48c;
+}
+
+.form-button {
+    margin-top: 40px;
+}
+
+.form-button__login {
+    padding: 10px 30px 10px 30px;
+    color: #fff;
+    background-color: #996633;
+}
